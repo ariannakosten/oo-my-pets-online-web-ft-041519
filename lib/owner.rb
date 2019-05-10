@@ -15,10 +15,31 @@ class Owner
   end
   
   def pets 
+    
   end
 
   def buy_a_fish
-    Fish.new 
+  
+  end
+  
+  def buy_dog
+    
+  end
+  
+  def buy_cat
+    
+  end
+  
+  def feed_fish
+    
+  end
+  
+  def sell_pets
+    
+  end 
+  
+  def list_pets
+    
   end
   
   
