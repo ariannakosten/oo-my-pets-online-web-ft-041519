@@ -5,6 +5,6 @@ class Cat
   
   def initialize(name) #initializes with a name
     @name = name
-    # @mood = "nervous"  #initializes with a nervouse mood
+    @mood = "nervous"  #initializes with a nervouse mood
   end
 end
