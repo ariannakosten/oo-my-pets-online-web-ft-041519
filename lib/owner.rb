@@ -11,7 +11,6 @@ class Owner
     @@all << self  #instances of owner are created here
     @pets = {:fishes => [], :dogs => [], :cats => []}  
     #method .pets is initialized w a pets atribute as a hash w 3 keys
-    
   end
     
     def say_species
