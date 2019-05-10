@@ -39,7 +39,7 @@ class Owner
   end 
   
   def feed_fish
-     pets[:fishes].map {|fish| Fish.mood = "happy"}  #.map transforms data (mood)
+     pets[:fishes].map {|fish| fish.mood = "happy"}  #.map transforms data (mood)
   end
   
   def sell_pets
