@@ -8,6 +8,7 @@ class Owner
   
   def initialize(species)
     @species = species
+    @@all << self
   
   def self.all
     @@all
