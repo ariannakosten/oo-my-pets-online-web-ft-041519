@@ -18,7 +18,7 @@ class Owner
   end
 
   def buy_fish
-  @pets[:fishes] << Fish.new(fish_name)
+  @pets[:fishes] << Fish.new(fish_name)  #gets initialized with a name when created
   #@@all += 1
   end
   
@@ -27,7 +27,7 @@ class Owner
   end
   
   def buy_cat
-    
+    @pets[:cats] << Cat.new(cat_name)
   end
   
   def walk_dogs
