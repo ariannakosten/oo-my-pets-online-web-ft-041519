@@ -9,6 +9,8 @@ class Owner
   def initialize(species)
     @species = species
     @@all << self  #instances of owner are created here
+    
+    
   
   def self.all
     @@all
@@ -22,7 +24,5 @@ class Owner
     @all.clear
   end
   
-  def say_species
-    @species
-  end
+  
 end
