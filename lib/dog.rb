@@ -8,4 +8,3 @@ class Dog
     @mood = "nervous"  #initializes with a nervouse mood
   end
 end
-end
