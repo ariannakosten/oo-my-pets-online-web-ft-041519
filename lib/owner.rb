@@ -30,6 +30,10 @@ class Owner
     
   end
   
+  def walk_dogs
+    
+  end
+  
   def play_with_cats
     
   end 
