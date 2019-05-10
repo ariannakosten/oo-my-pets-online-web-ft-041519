@@ -10,6 +10,8 @@ class Owner
     @species = species
     @@all << self  #instances of owner are created here
     
+  end
+    
     def say_species
     @species
   end
