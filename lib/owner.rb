@@ -48,7 +48,7 @@ class Owner
         animal.mood 
       end
     #   animals.clear
-  
+  end
   end 
   
   def list_pets
