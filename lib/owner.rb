@@ -10,7 +10,16 @@ class Owner
     @species = species
     @@all << self  #instances of owner are created here
     
-    
+    def say_species
+    @species
+  end
+  
+  def pets 
+end
+
+def buy_a_fish
+  
+  
   
   def self.all
     @@all
@@ -23,6 +32,5 @@ class Owner
   def self.reset_all
     @all.clear
   end
-  
   
 end
