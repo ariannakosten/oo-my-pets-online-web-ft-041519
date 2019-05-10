@@ -17,9 +17,9 @@ class Owner
   def pets 
   end
 
-def buy_a_fish
-  Fish.new 
-end
+  def buy_a_fish
+    Fish.new 
+  end
   
   
   def self.all
